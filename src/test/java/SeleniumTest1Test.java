@@ -53,7 +53,7 @@ public class SeleniumTest1Test {
         driver.manage().window().setSize(new Dimension(1760, 1061));
         driver.findElement(By.linkText("대학소개")).click();
         driver.findElement(By.linkText("대학/대학원")).click();
-        driver.findElement(By.linkText("학사지원")).click();
+        //driver.findElement(By.linkText("학사지원")).click();
         driver.findElement(By.cssSelector(".vp > .logo > img")).click();
         Thread.sleep(1000);
 

@@ -63,7 +63,7 @@ public class SeleniumTest1Test {
         driver.findElement(By.id("query")).sendKeys("a");
         driver.findElement(By.id("query")).sendKeys(Keys.ENTER);
         Thread.sleep(1000);
-        driver.findElement(By.cssSelector(".ico_logo")).click();
+        //driver.findElement(By.cssSelector(".ico_logo")).click();
         Thread.sleep(1000);
 
         driver.navigate().to("https://www.daum.net");

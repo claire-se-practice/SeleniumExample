@@ -65,7 +65,7 @@ public class SeleniumTest1Test {
         //Thread.sleep(1000);
         //driver.findElement(By.cssSelector(".ico_logo")).click();
         Thread.sleep(1000);
-        Thread.sleep(1000);
+        Thread.sleep(100);
 /*
         driver.navigate().to("https://www.daum.net");
         Thread.sleep(1000);

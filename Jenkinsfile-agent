@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('git') {
             steps {
-                git credentialsId: 'getaccount', url: 'https://github.com/claire-se-practice/SeleniumExample.git'
+                git credentialsId: 'getaccount', poll: false, url: 'https://github.com/claire-se-practice/SeleniumExample.git'
             }
         }
         stage('maven'){

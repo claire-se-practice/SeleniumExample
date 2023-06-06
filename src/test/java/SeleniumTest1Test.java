@@ -77,7 +77,7 @@ public class SeleniumTest1Test {
         driver.findElement(By.id("minidaum")).click();
         Thread.sleep(1000);
         driver.findElement(By.linkText("Daum")).click();
-        Thread.sleep(100);
+        Thread.sleep(1000);
         driver.close();
     }
 }

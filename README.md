@@ -1,3 +1,2 @@
 # SeleniumExample
-IntelliJ
-Make short
+
